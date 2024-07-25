@@ -1,0 +1,30 @@
+@import "colors";
+
+
+.login{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(255, 249, 251);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >button{
+        background-color: white;
+        color: $light;
+        border: none;
+        border-radius: 10px;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 0 10px  rgba(0, 0, 0, 0.495);
+        cursor: pointer;
+        svg{
+            margin-left: 1rem;
+        }
+        &:hover{
+            color: $red;
+        }
+    }
+}
