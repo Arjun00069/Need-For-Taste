@@ -1,4 +1,3 @@
-### Access Information
 
 # Description                              
 Need-For-taste is a comprehensive online food delivery app designed to streamline the process of ordering and receiving food. Key features include:
